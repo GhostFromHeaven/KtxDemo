@@ -24,6 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="TextView"/>
             <Button
                     android:id="@+id/button02"
@@ -31,6 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="EditText"/>
             <Button
                     android:id="@+id/button03"
@@ -38,14 +40,16 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:text="test03"/>
+                    android:textSize="@dimen/text_size_l"
+                    android:text="Button"/>
             <Button
                     android:id="@+id/button04"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:text="test04"/>
+                    android:textSize="@dimen/text_size_l"
+                    android:text="ImageButton"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line1"
@@ -59,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test11"/>
             <Button
                     android:id="@+id/button12"
@@ -66,6 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test12"/>
             <Button
                     android:id="@+id/button13"
@@ -73,6 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test13"/>
             <Button
                     android:id="@+id/button14"
@@ -80,6 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test14"/>
         </LinearLayout>
         <LinearLayout
@@ -94,6 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test21"/>
             <Button
                     android:id="@+id/button22"
@@ -101,6 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test22"/>
             <Button
                     android:id="@+id/button23"
@@ -108,6 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test23"/>
             <Button
                     android:id="@+id/button24"
@@ -115,6 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_l"
                     android:text="test24"/>
         </LinearLayout>
     </LinearLayout>

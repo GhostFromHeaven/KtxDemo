@@ -12,6 +12,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.widget.ImageButtonActivity">
+        </activity>
+        <activity android:name=".ui.widget.ButtonActivity">
+        </activity>
         <activity android:name=".ui.widget.TextViewActivity">
         </activity>
         <activity android:name=".ui.widget.EditTextActivity">

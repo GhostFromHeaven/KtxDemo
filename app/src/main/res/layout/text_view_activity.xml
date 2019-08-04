@@ -62,7 +62,7 @@
             android:layout_row="2"
             android:textSize="@dimen/text_size_m"
             android:textColor="#16476B"
-            android:text="那现在进展如何？有我需要我帮忙的吗？"/>
+            android:text="那现在进展如何？有需要我帮忙的吗？"/>
     <ImageView
             android:id="@+id/ico3"
             android:layout_gravity="top"
