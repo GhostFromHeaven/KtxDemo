@@ -8,9 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.gfh.ktxhello.R
-import com.gfh.ktxhello.common.extension.startActivity
+import com.gfh.ktxhello.common.extension.safeContext
 import com.gfh.ktxhello.databinding.MainFragmentBinding
 import com.gfh.ktxhello.ui.widget.EditTextActivity
+import com.gfh.ktxhello.ui.widget.TextViewActivity
 import timber.log.Timber
 
 class MainFragment : Fragment() {
@@ -36,11 +37,11 @@ class MainFragment : Fragment() {
     fun initListener() {
         binding.button01.setOnClickListener {
             Timber.i("[MainFragment.initListener] button01 click")
-            EditTextActivity.start(requireContext())
+            TextViewActivity.start(safeContext)
         }
         binding.button02.setOnClickListener {
             Timber.i("[MainFragment.initListener] button02 click")
-            startActivity<EditTextActivity>()
+            EditTextActivity.start(safeContext)
         }
         binding.button03.setOnClickListener {
             Timber.i("[MainFragment.initListener] button03 click")

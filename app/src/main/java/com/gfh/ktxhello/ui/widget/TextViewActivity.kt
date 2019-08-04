@@ -6,16 +6,16 @@ import android.os.Bundle
 import com.gfh.ktxhello.R
 import com.gfh.ktxhello.common.extension.startActivity
 
-class EditTextActivity : AppCompatActivity() {
+class TextViewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.edit_text_activity)
+        setContentView(R.layout.text_view_activity)
     }
 
     companion object {
-        fun start(context:Context) {
-            context.startActivity<EditTextActivity> {  }
+        fun start(context: Context) {
+            context.startActivity<TextViewActivity> {  }
         }
     }
 }

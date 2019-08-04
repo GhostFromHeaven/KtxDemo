@@ -8,10 +8,10 @@
             android:id="@+id/main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            tools:context=".ui.main.MainFragment"
             android:paddingStart="@dimen/padding_m"
-            android:paddingEnd="@dimen/padding_m">
+            android:paddingEnd="@dimen/padding_m"
+            android:orientation="vertical"
+            tools:context=".ui.main.MainFragment">
         <LinearLayout
                 android:id="@+id/line0"
                 android:layout_width="match_parent"
@@ -23,24 +23,28 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="test01"/>
+                    android:textAllCaps="false"
+                    android:text="TextView"/>
             <Button
                     android:id="@+id/button02"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="test02"/>
+                    android:textAllCaps="false"
+                    android:text="EditText"/>
             <Button
                     android:id="@+id/button03"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test03"/>
             <Button
                     android:id="@+id/button04"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test04"/>
         </LinearLayout>
         <LinearLayout
@@ -54,24 +58,28 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test11"/>
             <Button
                     android:id="@+id/button12"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test12"/>
             <Button
                     android:id="@+id/button13"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test13"/>
             <Button
                     android:id="@+id/button14"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test14"/>
         </LinearLayout>
         <LinearLayout
@@ -85,24 +93,28 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test21"/>
             <Button
                     android:id="@+id/button22"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test22"/>
             <Button
                     android:id="@+id/button23"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test23"/>
             <Button
                     android:id="@+id/button24"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAllCaps="false"
                     android:text="test24"/>
         </LinearLayout>
     </LinearLayout>

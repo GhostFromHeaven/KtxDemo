@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_xh"
+        android:orientation="vertical"
+        android:background="#EAEAEA"
+        tools:context=".ui.widget.EditTextActivity">
+    <EditText
+            android:id="@+id/et_say_something"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:gravity="top"
+            android:background="@drawable/bg_white_solid_corners"
+            android:lines="6"
+            android:hint="@string/edittext_say_something"/>
+    <TextView
+            android:id="@+id/tv_add_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_m"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_white_solid_corners"
+            android:drawableStart="@mipmap/edittext_addpicture"
+            android:drawablePadding="@dimen/padding_m"
+            android:textColor="@color/color_gray"
+            android:text="@string/edittext_add_picture"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_m"
+            android:src="@mipmap/edittext_bottom"
+            android:scaleType="fitXY"/>
+</LinearLayout>
