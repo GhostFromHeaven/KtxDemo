@@ -10,8 +10,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             tools:context=".ui.main.MainFragment"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp">
+            android:paddingStart="@dimen/padding_m"
+            android:paddingEnd="@dimen/padding_m">
         <LinearLayout
                 android:id="@+id/line0"
                 android:layout_width="match_parent"
