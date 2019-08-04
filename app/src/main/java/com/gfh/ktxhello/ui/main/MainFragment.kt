@@ -10,10 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.gfh.ktxhello.R
 import com.gfh.ktxhello.common.extension.safeContext
 import com.gfh.ktxhello.databinding.MainFragmentBinding
-import com.gfh.ktxhello.ui.widget.ButtonActivity
-import com.gfh.ktxhello.ui.widget.EditTextActivity
-import com.gfh.ktxhello.ui.widget.ImageButtonActivity
-import com.gfh.ktxhello.ui.widget.TextViewActivity
+import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
 
 class MainFragment : Fragment() {
@@ -58,6 +55,7 @@ class MainFragment : Fragment() {
         //
         binding.button11.setOnClickListener {
             Timber.i("[MainFragment.initListener] button11 click")
+            RadioActivity.start(safeContext)
         }
         binding.button12.setOnClickListener {
             Timber.i("[MainFragment.initListener] button12 click")
