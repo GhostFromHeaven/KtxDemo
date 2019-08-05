@@ -1,0 +1,2 @@
+# KtxDemo
+Android KTX Demo
