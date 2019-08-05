@@ -59,6 +59,7 @@ class MainFragment : Fragment() {
         }
         binding.button12.setOnClickListener {
             Timber.i("[MainFragment.initListener] button12 click")
+            ShapeActivity.start(safeContext)
         }
         binding.button13.setOnClickListener {
             Timber.i("[MainFragment.initListener] button13 click")

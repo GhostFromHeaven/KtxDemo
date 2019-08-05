@@ -12,6 +12,8 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.widget.ShapeActivity">
+        </activity>
         <activity android:name=".ui.widget.RadioActivity">
         </activity>
         <activity android:name=".ui.widget.ImageButtonActivity">

@@ -72,7 +72,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_l"
-                    android:text="test12"/>
+                    android:text="Shape"/>
             <Button
                     android:id="@+id/button13"
                     android:layout_width="0dp"
