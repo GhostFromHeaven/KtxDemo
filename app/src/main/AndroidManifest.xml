@@ -12,6 +12,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.widget.ChronometerActivity">
+        </activity>
+        <activity android:name=".ui.widget.TimePickerActivity">
+        </activity>
+        <activity android:name=".ui.widget.DatePickerActivity">
+        </activity>
+        <activity android:name=".ui.widget.CheckboxActivity">
+        </activity>
         <activity android:name=".ui.widget.ShapeActivity">
         </activity>
         <activity android:name=".ui.widget.RadioActivity">

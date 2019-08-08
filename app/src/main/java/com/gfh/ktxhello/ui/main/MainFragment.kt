@@ -63,17 +63,21 @@ class MainFragment : Fragment() {
         }
         binding.button13.setOnClickListener {
             Timber.i("[MainFragment.initListener] button13 click")
+            CheckboxActivity.start(safeContext)
         }
         binding.button14.setOnClickListener {
             Timber.i("[MainFragment.initListener] button14 click")
+            DatePickerActivity.start(safeContext)
         }
 
         //
         binding.button21.setOnClickListener {
             Timber.i("[MainFragment.initListener] button21 click")
+            TimePickerActivity.start(safeContext)
         }
         binding.button22.setOnClickListener {
             Timber.i("[MainFragment.initListener] button22 click")
+            ChronometerActivity.start(safeContext)
         }
         binding.button23.setOnClickListener {
             Timber.i("[MainFragment.initListener] button23 click")

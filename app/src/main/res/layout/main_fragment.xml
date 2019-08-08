@@ -80,7 +80,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_l"
-                    android:text="test13"/>
+                    android:text="CheckBox"/>
             <Button
                     android:id="@+id/button14"
                     android:layout_width="0dp"
@@ -88,7 +88,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_l"
-                    android:text="test14"/>
+                    android:text="DatePicker"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line12"
@@ -103,7 +103,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_l"
-                    android:text="test21"/>
+                    android:text="TimePicker"/>
             <Button
                     android:id="@+id/button22"
                     android:layout_width="0dp"
@@ -111,7 +111,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_l"
-                    android:text="test22"/>
+                    android:text="Chronometer"/>
             <Button
                     android:id="@+id/button23"
                     android:layout_width="0dp"
