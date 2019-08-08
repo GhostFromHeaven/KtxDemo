@@ -34,6 +34,18 @@ class MainFragment : Fragment() {
     }
 
     fun initListener() {
+        initLine0()
+
+        initLine1()
+
+        initLine2()
+
+        initLine3()
+
+        initLine4()
+    }
+
+    private fun initLine0() {
         //
         binding.button01.setOnClickListener {
             Timber.i("[MainFragment.initListener] button01 click")
@@ -51,7 +63,9 @@ class MainFragment : Fragment() {
             Timber.i("[MainFragment.initListener] button04 click")
             ImageButtonActivity.start(safeContext)
         }
+    }
 
+    private fun initLine1() {
         //
         binding.button11.setOnClickListener {
             Timber.i("[MainFragment.initListener] button11 click")
@@ -69,7 +83,9 @@ class MainFragment : Fragment() {
             Timber.i("[MainFragment.initListener] button14 click")
             DatePickerActivity.start(safeContext)
         }
+    }
 
+    private fun initLine2() {
         //
         binding.button21.setOnClickListener {
             Timber.i("[MainFragment.initListener] button21 click")
@@ -81,9 +97,42 @@ class MainFragment : Fragment() {
         }
         binding.button23.setOnClickListener {
             Timber.i("[MainFragment.initListener] button23 click")
+            ProgressActivity.start(safeContext)
         }
         binding.button24.setOnClickListener {
             Timber.i("[MainFragment.initListener] button24 click")
+        }
+    }
+
+    private fun initLine3() {
+        //
+        binding.button31.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button31 click")
+        }
+        binding.button32.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button32 click")
+        }
+        binding.button33.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button33 click")
+        }
+        binding.button44.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button34 click")
+        }
+    }
+
+    private fun initLine4() {
+        //
+        binding.button41.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button41 click")
+        }
+        binding.button42.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button42 click")
+        }
+        binding.button43.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button43 click")
+        }
+        binding.button44.setOnClickListener {
+            Timber.i("[MainFragment.initListener] button44 click")
         }
     }
 

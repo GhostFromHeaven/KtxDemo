@@ -24,7 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="TextView"/>
             <Button
                     android:id="@+id/button02"
@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="EditText"/>
             <Button
                     android:id="@+id/button03"
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="Button"/>
             <Button
                     android:id="@+id/button04"
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="ImageButton"/>
         </LinearLayout>
         <LinearLayout
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="RadioButton"/>
             <Button
                     android:id="@+id/button12"
@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="Shape"/>
             <Button
                     android:id="@+id/button13"
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="CheckBox"/>
             <Button
                     android:id="@+id/button14"
@@ -87,11 +87,11 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="DatePicker"/>
         </LinearLayout>
         <LinearLayout
-                android:id="@+id/line12"
+                android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="TimePicker"/>
             <Button
                     android:id="@+id/button22"
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="Chronometer"/>
             <Button
                     android:id="@+id/button23"
@@ -118,16 +118,94 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
-                    android:text="test23"/>
+                    android:textSize="@dimen/text_size_s"
+                    android:text="ProgressBar"/>
             <Button
                     android:id="@+id/button24"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_l"
+                    android:textSize="@dimen/text_size_s"
                     android:text="test24"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+            <Button
+                    android:id="@+id/button31"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="31"/>
+            <Button
+                    android:id="@+id/button32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="32"/>
+            <Button
+                    android:id="@+id/button33"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="33"/>
+            <Button
+                    android:id="@+id/button34"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="34"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+            <Button
+                    android:id="@+id/button41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="41"/>
+            <Button
+                    android:id="@+id/button42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="42"/>
+            <Button
+                    android:id="@+id/button43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="43"/>
+            <Button
+                    android:id="@+id/button44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="44"/>
         </LinearLayout>
     </LinearLayout>
 </layout>

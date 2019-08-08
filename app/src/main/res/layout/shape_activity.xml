@@ -61,7 +61,7 @@
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_xh"
+                android:layout_marginStart="@dimen/margin_xl"
                 android:background="@drawable/shape_oval"/>
     </LinearLayout>
 
@@ -77,7 +77,7 @@
         <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_marginStart="@dimen/margin_xh"
+                android:layout_marginStart="@dimen/margin_xl"
                 android:background="@drawable/shape_ring1"/>
 
     </LinearLayout>

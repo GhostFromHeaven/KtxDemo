@@ -3,7 +3,7 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:paddingBottom="@dimen/padding_xxh"
+              android:paddingBottom="@dimen/padding_xxl"
               android:orientation="vertical"
               android:gravity="bottom|center_horizontal"
               android:background="@mipmap/imagebutton_bg"
@@ -20,7 +20,7 @@
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_h"
+            android:layout_marginTop="@dimen/margin_l"
             android:background="#0000"
             android:src="@mipmap/imagebutton_bt_switch"/>
 </LinearLayout>
