@@ -150,15 +150,15 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="32"/>
+                    android:text="ImageView"/>
             <Button
                     android:id="@+id/button33"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
-                    android:text="33"/>
+                    android:textSize="@dimen/text_size_xs"
+                    android:text="ImageSwitcher"/>
             <Button
                     android:id="@+id/button34"
                     android:layout_width="0dp"
@@ -166,7 +166,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="34"/>
+                    android:text="GridView"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line4"

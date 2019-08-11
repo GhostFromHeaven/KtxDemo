@@ -116,7 +116,7 @@ class MainFragment : Fragment() {
             // SeekBar
             Timber.i("[MainFragment.initListener] button24 click")
             // SeekBarActivity.start(safeContext)
-            startActivity<SeekBarActivity> ()
+            startActivity<SeekBarActivity>()
         }
     }
 
@@ -125,16 +125,21 @@ class MainFragment : Fragment() {
         binding.button31.setOnClickListener {
             // RatingBar
             Timber.i("[MainFragment.initListener] button31 click")
-            startActivity<RatingActivity> ()
+            startActivity<RatingActivity>()
         }
         binding.button32.setOnClickListener {
+            // ImageView
             Timber.i("[MainFragment.initListener] button32 click")
+            startActivity<ImageViewActivity>()
         }
         binding.button33.setOnClickListener {
+            // ImageSwitcher
             Timber.i("[MainFragment.initListener] button33 click")
+            startActivity<ImageSwitcherActivity>()
         }
-        binding.button44.setOnClickListener {
+        binding.button34.setOnClickListener {
             Timber.i("[MainFragment.initListener] button34 click")
+            startActivity<GridViewActivity>()
         }
     }
 
