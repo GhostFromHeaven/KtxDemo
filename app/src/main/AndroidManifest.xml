@@ -12,6 +12,12 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.widget.ScrollViewActivity">
+        </activity>
+        <activity android:name=".ui.widget.ListViewActivity">
+        </activity>
+        <activity android:name=".ui.widget.SpinnerActivity">
+        </activity>
         <activity android:name=".ui.widget.GridViewActivity">
         </activity>
         <activity android:name=".ui.widget.ImageSwitcherActivity">

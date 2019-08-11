@@ -181,7 +181,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="41"/>
+                    android:text="Spinner"/>
             <Button
                     android:id="@+id/button42"
                     android:layout_width="0dp"
@@ -189,7 +189,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="42"/>
+                    android:text="ListView"/>
             <Button
                     android:id="@+id/button43"
                     android:layout_width="0dp"
@@ -197,7 +197,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="43"/>
+                    android:text="ScrollView"/>
             <Button
                     android:id="@+id/button44"
                     android:layout_width="0dp"
@@ -206,6 +206,123 @@
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
                     android:text="44"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+            <Button
+                    android:id="@+id/button51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="51"/>
+            <Button
+                    android:id="@+id/button52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="52"/>
+            <Button
+                    android:id="@+id/button53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="53"/>
+            <Button
+                    android:id="@+id/button54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="54"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+            <Button
+                    android:id="@+id/button61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="61"/>
+            <Button
+                    android:id="@+id/button62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="62"/>
+            <Button
+                    android:id="@+id/button63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="63"/>
+            <Button
+                    android:id="@+id/button64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="64"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+            <Button
+                    android:id="@+id/button71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="71"/>
+            <Button
+                    android:id="@+id/button72"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="52"/>
+            <Button
+                    android:id="@+id/button73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="73"/>
+            <Button
+                    android:id="@+id/button74"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_s"
+                    android:text="74"/>
         </LinearLayout>
     </LinearLayout>
 </layout>

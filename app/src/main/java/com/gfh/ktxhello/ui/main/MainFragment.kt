@@ -45,6 +45,12 @@ class MainFragment : Fragment() {
         initLine3()
 
         initLine4()
+
+        initLine5()
+
+        initLine6()
+
+        initLine7()
     }
 
     private fun initLine0() {
@@ -146,19 +152,87 @@ class MainFragment : Fragment() {
     private fun initLine4() {
         //
         binding.button41.setOnClickListener {
+            // Spinner
             Timber.i("[MainFragment.initListener] button41 click")
+            startActivity<SpinnerActivity>()
         }
         binding.button42.setOnClickListener {
+            // ListView
             Timber.i("[MainFragment.initListener] button42 click")
+            startActivity<ListViewActivity>()
         }
         binding.button43.setOnClickListener {
+            // ScrollView
             Timber.i("[MainFragment.initListener] button43 click")
+            startActivity<ScrollViewActivity>()
         }
         binding.button44.setOnClickListener {
             Timber.i("[MainFragment.initListener] button44 click")
         }
     }
 
+    private fun initLine5() {
+        //
+        binding.button51.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button51 click")
+        }
+        binding.button52.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button52 click")
+        }
+        binding.button53.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button53 click")
+            startActivity<ScrollViewActivity>()
+        }
+        binding.button54.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button54 click")
+        }
+    }
+
+    private fun initLine6() {
+        //
+        binding.button61.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button61 click")
+        }
+        binding.button62.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button62 click")
+        }
+        binding.button63.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button63 click")
+            startActivity<ScrollViewActivity>()
+        }
+        binding.button64.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button64 click")
+        }
+    }
+
+    private fun initLine7() {
+        //
+        binding.button71.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button71 click")
+        }
+        binding.button72.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button72 click")
+        }
+        binding.button73.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button73 click")
+            startActivity<ScrollViewActivity>()
+        }
+        binding.button74.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button74 click")
+        }
+    }
     companion object {
         fun newInstance() = MainFragment()
     }
