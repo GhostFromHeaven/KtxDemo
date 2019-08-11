@@ -167,7 +167,9 @@ class MainFragment : Fragment() {
             startActivity<ScrollViewActivity>()
         }
         binding.button44.setOnClickListener {
+            // Tab
             Timber.i("[MainFragment.initListener] button44 click")
+            startActivity<TabActivity>()
         }
     }
 

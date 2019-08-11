@@ -205,7 +205,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="44"/>
+                    android:text="Tab"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line5"

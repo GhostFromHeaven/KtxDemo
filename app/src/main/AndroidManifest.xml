@@ -12,6 +12,8 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.widget.TabActivity">
+        </activity>
         <activity android:name=".ui.widget.ScrollViewActivity">
         </activity>
         <activity android:name=".ui.widget.ListViewActivity">
