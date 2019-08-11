@@ -16,16 +16,16 @@ import kotlin.random.Random
 class ProgressActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private var progressValue: Int = 0
-    private val handler = Handler { msg ->
-        when (msg.what) {
-            MSG_PROGRESS -> progressBar.progress = progressValue
-            MSG_DONE -> {
-                toast("耗时操作已完成")
-                progressBar.visibility = View.GONE
-            }
-        }
-        true
-    }
+//    private val handler = Handler { msg ->
+//        when (msg.what) {
+//            MSG_PROGRESS -> progressBar.progress = progressValue
+//            MSG_DONE -> {
+//                toast("耗时操作已完成")
+//                progressBar.visibility = View.GONE
+//            }
+//        }
+//        true
+//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

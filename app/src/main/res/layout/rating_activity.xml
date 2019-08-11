@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding_m"
+                android:background="@mipmap/rating_bg"
+                tools:context=".ui.widget.RatingActivity">
+    <!-- 店铺评分-->
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_marginBottom="206dp"
+            android:textSize="20sp"
+            android:text="店铺评分"/>
+    <!-- 星级评分条 -->
+    <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_marginBottom="116dp"
+            android:numStars="5"
+            android:rating="0"/>
+    <!--发表评价-->
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#FF5000"
+            android:textColor="#FFFFFF"
+            android:text="发表评价"/>
+</RelativeLayout>

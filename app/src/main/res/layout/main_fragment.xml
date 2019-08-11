@@ -127,7 +127,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="test24"/>
+                    android:text="SeekBar"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line3"
@@ -142,7 +142,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="31"/>
+                    android:text="RatingBar"/>
             <Button
                     android:id="@+id/button32"
                     android:layout_width="0dp"
