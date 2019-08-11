@@ -12,7 +12,7 @@ class TabActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tab_activity)
 
-        val tabHost :TabHost= findViewById(R.id.tab_host)
+        val tabHost :TabHost= findViewById(android.R.id.tabhost)
         tabHost.setup()
 
         val inflater = LayoutInflater.from(this)
