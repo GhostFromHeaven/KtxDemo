@@ -12,6 +12,18 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.activity.SetResultActivity">
+        </activity>
+        <activity android:name=".ui.activity.StartForResultActivity">
+        </activity>
+        <activity android:name=".ui.activity.ShowBundleActivity">
+        </activity>
+        <activity android:name=".ui.activity.BundleActivity">
+        </activity>
+        <activity android:name=".ui.activity.StopSelfActivity">
+        </activity>
+        <activity android:name=".ui.activity.StartActivity">
+        </activity>
         <activity android:name=".ui.widget.TabActivity">
         </activity>
         <activity android:name=".ui.widget.ScrollViewActivity">

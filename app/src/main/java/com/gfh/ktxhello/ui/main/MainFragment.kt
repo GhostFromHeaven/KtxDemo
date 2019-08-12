@@ -1,6 +1,5 @@
 package com.gfh.ktxhello.ui.main
 
-import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +11,9 @@ import com.gfh.ktxhello.R
 import com.gfh.ktxhello.common.extension.safeContext
 import com.gfh.ktxhello.common.extension.startActivity
 import com.gfh.ktxhello.databinding.MainFragmentBinding
+import com.gfh.ktxhello.ui.activity.BundleActivity
+import com.gfh.ktxhello.ui.activity.StartActivity
+import com.gfh.ktxhello.ui.activity.StartForResultActivity
 import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
 
@@ -176,17 +178,19 @@ class MainFragment : Fragment() {
     private fun initLine5() {
         //
         binding.button51.setOnClickListener {
-            //
+            // Start Stop Activity
             Timber.i("[MainFragment.initListener] button51 click")
+            startActivity<StartActivity>()
         }
         binding.button52.setOnClickListener {
-            //
+            // Bundle
             Timber.i("[MainFragment.initListener] button52 click")
+            startActivity<BundleActivity>()
         }
         binding.button53.setOnClickListener {
-            //
+            // startActivityForResult
             Timber.i("[MainFragment.initListener] button53 click")
-            startActivity<ScrollViewActivity>()
+            startActivity<StartForResultActivity>()
         }
         binding.button54.setOnClickListener {
             //
