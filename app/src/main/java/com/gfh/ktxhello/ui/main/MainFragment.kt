@@ -14,6 +14,7 @@ import com.gfh.ktxhello.databinding.MainFragmentBinding
 import com.gfh.ktxhello.ui.activity.BundleActivity
 import com.gfh.ktxhello.ui.activity.StartActivity
 import com.gfh.ktxhello.ui.activity.StartForResultActivity
+import com.gfh.ktxhello.ui.fragment.WeChatActivity
 import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
 
@@ -195,6 +196,7 @@ class MainFragment : Fragment() {
         binding.button54.setOnClickListener {
             //
             Timber.i("[MainFragment.initListener] button54 click")
+            startActivity<WeChatActivity>()
         }
     }
 

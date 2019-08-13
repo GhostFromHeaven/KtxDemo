@@ -1,9 +1,9 @@
 package com.gfh.ktxhello.ui.widget
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
 import android.widget.SimpleAdapter
+import androidx.appcompat.app.AppCompatActivity
 import com.gfh.ktxhello.R
 import org.jetbrains.anko.toast
 
@@ -41,7 +41,7 @@ class ListViewActivity : AppCompatActivity() {
         val listView: ListView = findViewById(R.id.listview)
         listView.adapter = adapter
 
-        listView.setOnItemClickListener { parent, view, position, id ->
+        listView.setOnItemClickListener { _, _, position, _ ->
             val map = list[position]
             toast(map["title"] as String)
         }
