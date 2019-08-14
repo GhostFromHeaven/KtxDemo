@@ -259,7 +259,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="61"/>
+                    android:text="KeyEvent"/>
             <Button
                     android:id="@+id/button62"
                     android:layout_width="0dp"
@@ -267,7 +267,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_s"
-                    android:text="62"/>
+                    android:text="TouchEvent"/>
             <Button
                     android:id="@+id/button63"
                     android:layout_width="0dp"

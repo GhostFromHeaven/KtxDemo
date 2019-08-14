@@ -14,6 +14,8 @@ import com.gfh.ktxhello.databinding.MainFragmentBinding
 import com.gfh.ktxhello.ui.activity.BundleActivity
 import com.gfh.ktxhello.ui.activity.StartActivity
 import com.gfh.ktxhello.ui.activity.StartForResultActivity
+import com.gfh.ktxhello.ui.event.KeyEventActivity
+import com.gfh.ktxhello.ui.event.TouchEventActivity
 import com.gfh.ktxhello.ui.fragment.WeChatActivity
 import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
@@ -203,12 +205,14 @@ class MainFragment : Fragment() {
     private fun initLine6() {
         //
         binding.button61.setOnClickListener {
-            //
+            // Key Event
             Timber.i("[MainFragment.initListener] button61 click")
+            startActivity<KeyEventActivity>()
         }
         binding.button62.setOnClickListener {
-            //
+            // Touch Event
             Timber.i("[MainFragment.initListener] button62 click")
+            startActivity<TouchEventActivity>()
         }
         binding.button63.setOnClickListener {
             //

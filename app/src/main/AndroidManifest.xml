@@ -12,6 +12,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.event.TouchEventActivity">
+        </activity>
+        <activity android:name=".ui.event.KeyEventActivity">
+        </activity>
         <activity android:name=".ui.fragment.WeChatActivity">
         </activity>
         <activity android:name=".ui.activity.SetResultActivity">
