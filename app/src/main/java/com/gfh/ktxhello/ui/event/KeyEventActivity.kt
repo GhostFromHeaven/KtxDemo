@@ -36,7 +36,7 @@ class KeyEventActivity : AppCompatActivity() {
     private fun onKeyBack() {
         if (System.currentTimeMillis() - lastBackKeyTime > 2000) {
             lastBackKeyTime = System.currentTimeMillis()
-            toast("再按一次推出应用")
+            toast("再按一次退出应用")
         } else {
             finish()
         }

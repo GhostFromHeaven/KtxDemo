@@ -12,6 +12,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.resource.ContextMenuActivity">
+        </activity>
+        <activity android:name=".ui.resource.MenuActivity">
+        </activity>
         <activity android:name=".ui.resource.DrawableActivity">
         </activity>
         <activity android:name=".ui.resource.ResourceActivity">
