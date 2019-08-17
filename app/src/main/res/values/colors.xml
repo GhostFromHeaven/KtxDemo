@@ -6,4 +6,9 @@
 
     <color name="color_gray">#FFAAAAAA</color>
     <color name="color_white">#FFEEEEEE</color>
+
+    <color name="wordcolor">#FFFFFFFF</color>
+
+    <color name="textView_bottom">#566489</color>
+    <color name="button_text_white">#FFFFFF</color>
 </resources>

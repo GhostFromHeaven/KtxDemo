@@ -48,4 +48,12 @@
     <dimen name="size_xl">16dp</dimen>
     <dimen name="size_xxl">24dp</dimen>
     <dimen name="size_xxxl">48dp</dimen>
+
+    <dimen name="wordsize">18sp</dimen>
+    <dimen name="margin">5dp</dimen>
+
+    <dimen name="imageView">50dp</dimen>
+    <dimen name="imageView_layout_marginTop">30dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="textView_marginTop">20dp</dimen>
 </resources>

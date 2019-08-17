@@ -17,6 +17,8 @@ import com.gfh.ktxhello.ui.activity.StartForResultActivity
 import com.gfh.ktxhello.ui.event.KeyEventActivity
 import com.gfh.ktxhello.ui.event.TouchEventActivity
 import com.gfh.ktxhello.ui.fragment.WeChatActivity
+import com.gfh.ktxhello.ui.resource.DrawableActivity
+import com.gfh.ktxhello.ui.resource.ResourceActivity
 import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
 
@@ -215,13 +217,14 @@ class MainFragment : Fragment() {
             startActivity<TouchEventActivity>()
         }
         binding.button63.setOnClickListener {
-            //
+            // Resource
             Timber.i("[MainFragment.initListener] button63 click")
-            startActivity<ScrollViewActivity>()
+            startActivity<ResourceActivity>()
         }
         binding.button64.setOnClickListener {
-            //
+            // Drawable
             Timber.i("[MainFragment.initListener] button64 click")
+            startActivity<DrawableActivity>()
         }
     }
 

@@ -8,8 +8,8 @@
             android:id="@+id/main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingStart="@dimen/padding_m"
-            android:paddingEnd="@dimen/padding_m"
+            android:paddingStart="@dimen/padding_s"
+            android:paddingEnd="@dimen/padding_s"
             android:orientation="vertical"
             tools:context=".ui.main.MainFragment">
         <LinearLayout
@@ -24,7 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="TextView"/>
             <Button
                     android:id="@+id/button02"
@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="EditText"/>
             <Button
                     android:id="@+id/button03"
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Button"/>
             <Button
                     android:id="@+id/button04"
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="ImageButton"/>
         </LinearLayout>
         <LinearLayout
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="RadioButton"/>
             <Button
                     android:id="@+id/button12"
@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Shape"/>
             <Button
                     android:id="@+id/button13"
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="CheckBox"/>
             <Button
                     android:id="@+id/button14"
@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="DatePicker"/>
         </LinearLayout>
         <LinearLayout
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="TimePicker"/>
             <Button
                     android:id="@+id/button22"
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Chronometer"/>
             <Button
                     android:id="@+id/button23"
@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="ProgressBar"/>
             <Button
                     android:id="@+id/button24"
@@ -126,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="SeekBar"/>
         </LinearLayout>
         <LinearLayout
@@ -141,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="RatingBar"/>
             <Button
                     android:id="@+id/button32"
@@ -149,7 +149,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="ImageView"/>
             <Button
                     android:id="@+id/button33"
@@ -158,14 +158,14 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:textSize="@dimen/text_size_xs"
-                    android:text="ImageSwitcher"/>
+                    android:text="ImgSwitcher"/>
             <Button
                     android:id="@+id/button34"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="GridView"/>
         </LinearLayout>
         <LinearLayout
@@ -180,7 +180,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Spinner"/>
             <Button
                     android:id="@+id/button42"
@@ -188,7 +188,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="ListView"/>
             <Button
                     android:id="@+id/button43"
@@ -196,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="ScrollView"/>
             <Button
                     android:id="@+id/button44"
@@ -204,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Tab"/>
         </LinearLayout>
         <LinearLayout
@@ -219,7 +219,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="StartActivity"/>
             <Button
                     android:id="@+id/button52"
@@ -227,7 +227,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Bundle"/>
             <Button
                     android:id="@+id/button53"
@@ -235,7 +235,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="GetResult"/>
             <Button
                     android:id="@+id/button54"
@@ -243,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="Fragment"/>
         </LinearLayout>
         <LinearLayout
@@ -258,7 +258,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="KeyEvent"/>
             <Button
                     android:id="@+id/button62"
@@ -266,7 +266,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="TouchEvent"/>
             <Button
                     android:id="@+id/button63"
@@ -274,16 +274,16 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
-                    android:text="63"/>
+                    android:textSize="@dimen/text_size_xs"
+                    android:text="Resource"/>
             <Button
                     android:id="@+id/button64"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
-                    android:text="64"/>
+                    android:textSize="@dimen/text_size_xs"
+                    android:text="Drawable"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/line7"
@@ -297,7 +297,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="71"/>
             <Button
                     android:id="@+id/button72"
@@ -305,7 +305,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="52"/>
             <Button
                     android:id="@+id/button73"
@@ -313,7 +313,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="73"/>
             <Button
                     android:id="@+id/button74"
@@ -321,7 +321,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:textSize="@dimen/text_size_s"
+                    android:textSize="@dimen/text_size_xs"
                     android:text="74"/>
         </LinearLayout>
     </LinearLayout>
