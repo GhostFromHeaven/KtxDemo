@@ -16,17 +16,20 @@ class ContextMenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.context_menu_activity)
 
-        val textView :TextView = findViewById(R.id.textView)
+        val textView: TextView = findViewById(R.id.textView)
         registerForContextMenu(textView)
     }
 
-    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo?) {
+    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo) {
         val menuInflater = MenuInflater(this)
-        menuInflater.inflate(R.menu.context_menu_menu, menu)
+        when (v.id) {
+            R.id.textView -> menuInflater.inflate(R.menu.context_menu_menu, menu)
+            else -> super.onCreateContextMenu(menu, v, menuInfo)
+        }
     }
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.copy -> toast("复制")
             R.id.favor -> toast("收藏")
             R.id.translate -> toast("翻译")

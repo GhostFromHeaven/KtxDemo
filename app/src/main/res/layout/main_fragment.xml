@@ -317,7 +317,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="73"/>
+                        android:text="Show ActionBar"/>
                 <Button
                         android:id="@+id/button74"
                         android:layout_width="0dp"
@@ -325,7 +325,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="74"/>
+                        android:text="ActionBar Item"/>
             </LinearLayout>
             <LinearLayout
                     android:id="@+id/line8"
@@ -340,7 +340,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="81"/>
+                        android:text="ActionBar View"/>
                 <Button
                         android:id="@+id/button82"
                         android:layout_width="0dp"
@@ -348,7 +348,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="52"/>
+                        android:text="ActionBar Tab"/>
                 <Button
                         android:id="@+id/button83"
                         android:layout_width="0dp"
@@ -356,7 +356,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="83"/>
+                        android:text="ActionBar Up"/>
                 <Button
                         android:id="@+id/button84"
                         android:layout_width="0dp"

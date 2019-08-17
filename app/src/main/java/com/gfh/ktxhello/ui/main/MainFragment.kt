@@ -11,6 +11,7 @@ import com.gfh.ktxhello.R
 import com.gfh.ktxhello.common.extension.safeContext
 import com.gfh.ktxhello.common.extension.startActivity
 import com.gfh.ktxhello.databinding.MainFragmentBinding
+import com.gfh.ktxhello.ui.actionbar.*
 import com.gfh.ktxhello.ui.activity.BundleActivity
 import com.gfh.ktxhello.ui.activity.StartActivity
 import com.gfh.ktxhello.ui.activity.StartForResultActivity
@@ -247,30 +248,33 @@ class MainFragment : Fragment() {
             startActivity<ContextMenuActivity>()
         }
         binding.button73.setOnClickListener {
-            //
+            // ActionBar basic
             Timber.i("[MainFragment.initListener] button73 click")
-            startActivity<ScrollViewActivity>()
+            startActivity<ActionBarBasicActivity>()
         }
         binding.button74.setOnClickListener {
-            //
+            // ActionBar item
             Timber.i("[MainFragment.initListener] button74 click")
+            startActivity<ActionBarItemActivity>()
         }
     }
 
     private fun initLine8() {
-        //
+        // ActionBar view
         binding.button81.setOnClickListener {
-            //
+            // ActionBar view
             Timber.i("[MainFragment.initListener] button81 click")
+            startActivity<ActionBarViewActivity>()
         }
         binding.button82.setOnClickListener {
-            //
+            // ActionBar tab
             Timber.i("[MainFragment.initListener] button82 click")
+            startActivity<ActionBarTabActivity>()
         }
         binding.button83.setOnClickListener {
-            //
+            // ActionBar up
             Timber.i("[MainFragment.initListener] button83 click")
-            startActivity<ScrollViewActivity>()
+            startActivity<ActionBarNavUpActivity>()
         }
         binding.button84.setOnClickListener {
             //
@@ -291,7 +295,6 @@ class MainFragment : Fragment() {
         binding.button93.setOnClickListener {
             //
             Timber.i("[MainFragment.initListener] button93 click")
-            startActivity<ScrollViewActivity>()
         }
         binding.button94.setOnClickListener {
             //

@@ -12,6 +12,18 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.actionbar.ActionBarNavUpActivity">
+        </activity>
+        <activity android:name=".ui.actionbar.ActionBarTabActivity">
+        </activity>
+        <activity
+                android:name=".ui.actionbar.ActionBarViewActivity"
+                android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".ui.actionbar.ActionBarItemActivity">
+        </activity>
+        <activity android:name=".ui.actionbar.ActionBarBasicActivity">
+        </activity>
         <activity android:name=".ui.resource.ContextMenuActivity">
         </activity>
         <activity android:name=".ui.resource.MenuActivity">
