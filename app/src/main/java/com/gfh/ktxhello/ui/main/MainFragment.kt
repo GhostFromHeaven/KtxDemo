@@ -22,6 +22,8 @@ import com.gfh.ktxhello.ui.resource.ContextMenuActivity
 import com.gfh.ktxhello.ui.resource.DrawableActivity
 import com.gfh.ktxhello.ui.resource.MenuActivity
 import com.gfh.ktxhello.ui.resource.ResourceActivity
+import com.gfh.ktxhello.ui.viewpager.ViewPager2Activity
+import com.gfh.ktxhello.ui.viewpager.ViewPagerActivity
 import com.gfh.ktxhello.ui.widget.*
 import timber.log.Timber
 
@@ -277,20 +279,23 @@ class MainFragment : Fragment() {
             startActivity<ActionBarNavUpActivity>()
         }
         binding.button84.setOnClickListener {
-            //
+            // ActionBar swipe
             Timber.i("[MainFragment.initListener] button84 click")
+            startActivity<ActionBarSwipeTabActivity>()
         }
     }
 
     private fun initLine9() {
         //
         binding.button91.setOnClickListener {
-            //
+            // ViewPager2
             Timber.i("[MainFragment.initListener] button91 click")
+            startActivity<ViewPager2Activity>()
         }
         binding.button92.setOnClickListener {
-            //
+            // ViewPager
             Timber.i("[MainFragment.initListener] button92 click")
+            startActivity<ViewPagerActivity>()
         }
         binding.button93.setOnClickListener {
             //

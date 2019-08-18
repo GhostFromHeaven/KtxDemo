@@ -12,6 +12,12 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.viewpager.ViewPagerActivity">
+        </activity>
+        <activity android:name=".ui.viewpager.ViewPager2Activity">
+        </activity>
+        <activity android:name=".ui.actionbar.ActionBarSwipeTabActivity">
+        </activity>
         <activity android:name=".ui.actionbar.ActionBarNavUpActivity">
         </activity>
         <activity android:name=".ui.actionbar.ActionBarTabActivity">
