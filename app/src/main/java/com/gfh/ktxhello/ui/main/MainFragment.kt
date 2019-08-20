@@ -18,6 +18,8 @@ import com.gfh.ktxhello.ui.activity.StartForResultActivity
 import com.gfh.ktxhello.ui.event.KeyEventActivity
 import com.gfh.ktxhello.ui.event.TouchEventActivity
 import com.gfh.ktxhello.ui.fragment.WeChatActivity
+import com.gfh.ktxhello.ui.message.AlertDialogActivity
+import com.gfh.ktxhello.ui.message.ToastActivity
 import com.gfh.ktxhello.ui.resource.ContextMenuActivity
 import com.gfh.ktxhello.ui.resource.DrawableActivity
 import com.gfh.ktxhello.ui.resource.MenuActivity
@@ -298,12 +300,14 @@ class MainFragment : Fragment() {
             startActivity<ViewPagerActivity>()
         }
         binding.button93.setOnClickListener {
-            //
+            // Toast
             Timber.i("[MainFragment.initListener] button93 click")
+            startActivity<ToastActivity>()
         }
         binding.button94.setOnClickListener {
-            //
+            // AlertDialog
             Timber.i("[MainFragment.initListener] button94 click")
+            startActivity<AlertDialogActivity>()
         }
     }
 

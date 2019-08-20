@@ -395,7 +395,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="93"/>
+                        android:text="Toast"/>
                 <Button
                         android:id="@+id/button94"
                         android:layout_width="0dp"
@@ -403,7 +403,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="94"/>
+                        android:text="AlertDialog"/>
             </LinearLayout>
             <LinearLayout
                     android:id="@+id/line10"

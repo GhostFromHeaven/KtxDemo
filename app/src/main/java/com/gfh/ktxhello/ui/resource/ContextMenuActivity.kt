@@ -20,7 +20,7 @@ class ContextMenuActivity : AppCompatActivity() {
         registerForContextMenu(textView)
     }
 
-    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo) {
+    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo?) {
         val menuInflater = MenuInflater(this)
         when (v.id) {
             R.id.textView -> menuInflater.inflate(R.menu.context_menu_menu, menu)

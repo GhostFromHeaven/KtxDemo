@@ -12,6 +12,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.message.ToastActivity">
+        </activity>
+        <activity android:name=".ui.message.AlertDialogActivity">
+        </activity>
         <activity android:name=".ui.viewpager.ViewPagerActivity">
         </activity>
         <activity android:name=".ui.viewpager.ViewPager2Activity">
