@@ -418,7 +418,7 @@
                         android:layout_weight="1"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_xs"
-                        android:text="101"/>
+                        android:text="Notification"/>
                 <Button
                         android:id="@+id/button102"
                         android:layout_width="0dp"

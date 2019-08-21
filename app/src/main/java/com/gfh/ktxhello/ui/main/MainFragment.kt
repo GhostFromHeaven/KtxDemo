@@ -19,6 +19,7 @@ import com.gfh.ktxhello.ui.event.KeyEventActivity
 import com.gfh.ktxhello.ui.event.TouchEventActivity
 import com.gfh.ktxhello.ui.fragment.WeChatActivity
 import com.gfh.ktxhello.ui.message.AlertDialogActivity
+import com.gfh.ktxhello.ui.message.NotificationActivity
 import com.gfh.ktxhello.ui.message.ToastActivity
 import com.gfh.ktxhello.ui.resource.ContextMenuActivity
 import com.gfh.ktxhello.ui.resource.DrawableActivity
@@ -69,6 +70,12 @@ class MainFragment : Fragment() {
         initLine8()
 
         initLine9()
+
+        initLine10()
+
+        initLine11()
+
+        initLine12()
     }
 
     private fun initLine0() {
@@ -209,7 +216,7 @@ class MainFragment : Fragment() {
             startActivity<StartForResultActivity>()
         }
         binding.button54.setOnClickListener {
-            //
+            // Fragment
             Timber.i("[MainFragment.initListener] button54 click")
             startActivity<WeChatActivity>()
         }
@@ -311,6 +318,77 @@ class MainFragment : Fragment() {
         }
     }
 
+    private fun initLine10() {
+        //
+        binding.button101.setOnClickListener {
+            // Notification
+            Timber.i("[MainFragment.initListener] button101 click")
+            startActivity<NotificationActivity>()
+        }
+        binding.button102.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button102 click")
+            startActivity<MainActivity>()
+        }
+        binding.button103.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button103 click")
+            startActivity<MainActivity>()
+        }
+        binding.button104.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button104 click")
+            startActivity<MainActivity>()
+        }
+    }
+
+    private fun initLine11() {
+        //
+        binding.button111.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button111 click")
+            startActivity<MainActivity>()
+        }
+        binding.button112.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button112 click")
+            startActivity<MainActivity>()
+        }
+        binding.button113.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button113 click")
+            startActivity<MainActivity>()
+        }
+        binding.button114.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button114 click")
+            startActivity<MainActivity>()
+        }
+    }
+
+    private fun initLine12() {
+        //
+        binding.button121.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button121 click")
+            startActivity<MainActivity>()
+        }
+        binding.button122.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button122 click")
+            startActivity<MainActivity>()
+        }
+        binding.button123.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button123 click")
+            startActivity<MainActivity>()
+        }
+        binding.button124.setOnClickListener {
+            //
+            Timber.i("[MainFragment.initListener] button124 click")
+            startActivity<MainActivity>()
+        }
+    }
     companion object {
         fun newInstance() = MainFragment()
     }
